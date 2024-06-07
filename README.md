@@ -1,14 +1,12 @@
-# DEPRECATED: microservices-demo documentation
+# ONIX: Microsserviços de Aeroportos
 
-> This directory contains the deployment and internal documentation.
-It is published at [microservices-demo.github.io](https://microservices-demo.github.io)
+> Este diretório contém a implantação e a documentação interna. É publicado em [aeroportos-onix.github.io](https://aeroportos-onix.github.io)
 
+## Início
 
-## Getting started
+Há um [docker-compose](https://docs.docker.com/compose/) incluído para
+desenvolvimento local, use o seguinte comando para iniciá-lo:
 
-There is a [docker-compose](https://docs.docker.com/compose/) included for
-local development, use the following command to start it:
-
-```
-docker-compose up
+```sh
+docker-compose up -d
 ```
